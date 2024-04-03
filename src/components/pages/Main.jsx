@@ -38,7 +38,7 @@ console.log(filteredWithSearch);
 
       <Search inputValue={inputValue} setInputValue={setInputValue} />
 
-      <div className="cardContainer row container m-auto w-100">
+      <div className="cardContainer row container m-auto gap-1">
         {filteredWithSearch.map((item, index) => (
           <ProductCard key={index} item={item} />
         ))}

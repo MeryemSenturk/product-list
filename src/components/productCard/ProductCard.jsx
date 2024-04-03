@@ -12,15 +12,15 @@ function ProductCard({item}) {
   }
 
   return (
-    <Card className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 m-5">
+    <Card className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-4 mx-auto">
       <Card.Header className="bg-secondary d-flex justify-content-between">
-
-        <p className="mb-1" style={{fontSize: "20px", fontWeight: "bold"}}>{item.price}$</p>
+        <p className="mb-1" style={{ fontSize: "20px", fontWeight: "bold" }}>
+          {item.price}$
+        </p>
 
         <button onClick={handleLikeClick} type="button" class="btn btn-light">
           <FaHeart color={liked ? "red" : "black"} />
         </button>
-
       </Card.Header>
       <Card.Body>
         <Card.Img variant="top" src={item.image} />
