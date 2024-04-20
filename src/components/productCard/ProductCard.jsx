@@ -19,7 +19,7 @@ function ProductCard({item}) {
           {item.price}$
         </p>
 
-        <button onClick={handleLikeClick} type="button" class="btn btn-light">
+        <button onClick={handleLikeClick} type="button" class="btn btn-light" >
           <FaHeart color={liked ? "red" : "black"} />
         </button>
         
