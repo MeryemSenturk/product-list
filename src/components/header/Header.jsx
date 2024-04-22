@@ -11,7 +11,7 @@ const Header = ({ categories, setCategories }) => {
   }, []);
 
   return (
-    <div className="bg-secondary">
+    <div className="bg-secondary ">
       <h1>PRODUCT LIST</h1>
       <div className="btns p-2">
         {" "}

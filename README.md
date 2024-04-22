@@ -9,9 +9,10 @@ Builded a Product List App using ReactJS. Used axios to pull the products from a
 ## Technologies:
 
 - HTML
-- Bootstrap
 - JavaScript
 - ReactJS
+- Bootstrap
+- Sass
 
 ## Demo
 

@@ -43,9 +43,6 @@ console.log(filteredWithSearch);
           <ProductCard key={index} item={item} />
         ))}
       </div>
-
-  
-
     </div>
   );
 }
